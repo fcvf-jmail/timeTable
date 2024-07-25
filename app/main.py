@@ -185,3 +185,7 @@ async def update_user_chatId(user_update_info: UserUpdate):
         return 200
     except Error as e:
         return f"POST /api/user/\ndb error\n{e}"
+
+@app.get("/api/is_running")
+async def is_running():
+    return 200
