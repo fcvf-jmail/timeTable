@@ -1,7 +1,7 @@
 name: Check
 on: push
 jobs:
-  deploy:
+  lint:
     runs-on: ubuntu-latest 
     steps:
     -  name: Checkout
