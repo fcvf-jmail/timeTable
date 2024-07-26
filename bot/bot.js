@@ -91,4 +91,4 @@ bot.action(/hw_/ig, async ctx => {
     await ctx.replyWithHTML(textHtml, {reply_markup: {inline_keyboard: [[{text: "Назад", callback_data: "HWArchive"}]]}}).catch(err => console.log(err))
 })
 
-bot.launch()
+bot.launch().then(() => console.log("bot started"))

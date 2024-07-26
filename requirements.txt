@@ -2,4 +2,5 @@ fastapi
 uvicorn
 bs4
 mysql-connector-python
-pydantic
+requests
+uvicorn
